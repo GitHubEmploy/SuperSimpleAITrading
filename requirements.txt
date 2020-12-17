@@ -1,0 +1,14 @@
+numpy
+keras
+pandas
+tensorflow
+sklearn
+matplotlib
+datetime
+lxml
+coloredlogs
+colorama
+yahoo_fin
+requests_html
+cloud-tpu-client
+alpaca_trade_api
