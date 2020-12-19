@@ -16,8 +16,6 @@ if 6 <= int(current_time) < 13:
     logger.info('Trading Now...')
     current_time = now.strftime("%H")
     os.system('python tradeAI.py trade')
-    if current_time == 13:
-        break
 elif 13 <= int(current_time) <14 or 0<= int(current_time) < 6:
     now = datetime.now()
     current_time = now.strftime("%H")
@@ -26,6 +24,4 @@ elif 13 <= int(current_time) <14 or 0<= int(current_time) < 6:
     now = datetime.now()
     current_time = now.strftime("%H")
     os.system('python tradeAI.py train')
-    if 7 <= int(current_time) < 13:
-        break
 
