@@ -1,3 +1,10 @@
+# Why I Put This Here
+
+
+## If u guys want to run this in the web instead
+
+
+
 # pyxterm.js
 A fully functional terminal in your browser.
 
